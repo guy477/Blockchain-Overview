@@ -275,5 +275,8 @@ def consensus():
     return jsonify(response), 200
 
 
+
+#can change port to test locally
+# Todo: set up on mac and try running a test not limited to one system.
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
